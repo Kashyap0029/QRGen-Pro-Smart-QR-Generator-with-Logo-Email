@@ -35,7 +35,7 @@ The system generates a QR code dynamically and delivers it to the user via email
 
 
 ### Email Output
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/ac57a885-d144-438e-826c-1062eb5d5210" />
+<img width="250" height="400" alt="image" src="https://github.com/user-attachments/assets/ac57a885-d144-438e-826c-1062eb5d5210" />
 
 
 ---
