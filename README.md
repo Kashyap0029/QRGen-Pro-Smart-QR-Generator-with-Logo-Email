@@ -30,7 +30,8 @@ The system generates a QR code dynamically and delivers it to the user via email
 ## Screenshots
 
 ### Web Interface
-![QR Generator UI](assets/ui.png)
+![QR Generator UI](<img width="567" height="790" alt="Screenshot 2026-04-17 at 1 02 59 PM" src="https://github.com/user-attachments/assets/9c934207-6d75-4f92-8689-3d40c0e9a912" />
+g)
 
 ### Email Output
 ![Email Output](assets/email.png)
