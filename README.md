@@ -1,12 +1,54 @@
 # Smart QR Generator
 
-Custom QR generator with logo embedding and email delivery using FastAPI.
+A full-stack web application that allows users to generate customized QR codes from URLs, embed logos inside the QR, and receive the generated QR code via email.
 
-## Setup
-Create .env:
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
+---
 
-pip3 install -r requirements.txt
-uvicorn main:app --reload
-Open index.html
+## Features
+
+- Generate QR codes from any URL  
+- Embed custom logos inside QR codes  
+- Send generated QR code directly to email  
+- FastAPI-based backend  
+- Simple and responsive frontend  
+
+---
+
+## Project Overview
+
+This project demonstrates a real-world full-stack application by integrating:
+
+- **Frontend** → Takes user input (URL, logo, email)  
+- **Backend (FastAPI)** → Processes request and generates QR  
+- **Image Processing** → Adds logo inside QR  
+- **Email Service** → Sends QR as attachment  
+
+The system generates a QR code dynamically and delivers it to the user via email.
+
+---
+
+## Screenshots
+
+### Web Interface
+![QR Generator UI](assets/ui.png)
+
+### Email Output
+![Email Output](assets/email.png)
+
+---
+
+## Tech Stack
+
+- **Backend:** FastAPI (Python)  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Libraries:** qrcode, Pillow, smtplib  
+- **Environment Management:** python-dotenv  
+
+---
+
+## Setup Instructions
+
+### Clone Repository
+```bash
+git clone https://github.com/your-username/smart-qr-generator.git
+cd smart-qr-generator
